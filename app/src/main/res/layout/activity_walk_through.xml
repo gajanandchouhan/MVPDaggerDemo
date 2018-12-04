@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.walkthrough.WalkThroughActivity">
+
+    <include layout="@layout/background" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/indicator" />
+
+    <com.amiggo.custom.CirclePageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fillColor="@color/colorGold"
+        app:pageColor="@color/colorBlack"
+        android:layout_above="@+id/button_get_started"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20dp" />
+
+    <Button
+        android:id="@+id/button_get_started"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/_40dp"
+        android:layout_marginLeft="@dimen/_20dp"
+        android:layout_marginRight="@dimen/_20dp"
+        android:background="@drawable/btn_bg"
+        android:fontFamily="@font/reguler"
+        android:textStyle="bold"
+        android:text="@string/get_started"
+        android:textColor="@color/colorGold"
+        android:textSize="@dimen/_20sp" />
+
+
+</RelativeLayout>

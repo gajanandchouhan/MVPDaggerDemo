@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/colorGold</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGold">#977c2d</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#1e1c1c</color>
+    <color name="colorFacebook">#274C80</color>
+    <color name="colorInstagram">#8A307E</color>
+    <color name="colorGoogle">#FF1736</color>
+</resources>
